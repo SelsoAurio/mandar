@@ -1,0 +1,95 @@
+body  {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(sam.jpg);
+    background-size: cover;
+    
+     
+}
+@keyframes animacao{
+    from{
+        background-color: aqua;width: ;
+    }
+    to {background-color: hotpink;width:}
+    
+}
+
+#Login{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 50px;
+}
+#cadastrar{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 50px;
+}
+#menu{
+    background-color: black;
+}
+#menu ul{
+    list-style: none;
+    padding: 0;
+    background-color: rgb(8, 8, 8);
+    
+}
+#menu li{
+display: inline;
+
+}
+#menu  a{
+    display: inline-block;
+    color: #ffff;
+    text-decoration: none;
+    padding: 20px;
+    transition: all 2s;
+    
+}
+#menu  a:hover{
+    color: aqua;
+    
+}
+#menu a:last-child {
+    float: right;
+    background-color: blueviolet;
+}
+#logo{
+    color: black;
+    background-color: aliceblue;
+    text-align: center;
+    animation-duration: 6s;
+    animation-name: animacao;
+    animation-delay: 0;
+     animation-iteration-count: infinite;
+     
+    
+}
+
+
+#postagem{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.card{
+    background-color:#ffff;
+    margin-left: 30px;
+    margin-top: 30px;
+    width: 600px;
+    border-radius: 41px;
+    animation-duration: 6s;
+    animation-name: animacao;
+    animation-delay: 0;
+     animation-iteration-count: infinite;
+     
+    
+}
+
+img{
+    border-radius: 92px;
+width: 150px;
+}
